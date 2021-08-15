@@ -23,13 +23,13 @@ const TaskForm = (props) => {
     }
 
     return (
-            <Form onSubmit={handleSubmit} className="mb-3">
+            <Form onSubmit={handleSubmit} className="mb-3" style={{border:"2px solid #ccc"}}>
                 <Row>
                     <Col>
                         <Form.Control 
                              type="text"
                              value={name}
-                             placeholder="task Name"
+                             placeholder="Task Name"
                              onChange = {(e) => {setName(e.target.value)}}
                         />
                     </Col>

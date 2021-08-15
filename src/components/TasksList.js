@@ -75,7 +75,7 @@ const TasksList = (props) => {
                     </>
                     
                 ) : (
-                    <h3 style={{textAlign:'center'}}>Add you first task..</h3>
+                    <h3 style={{textAlign:'center'}}>Add your first task...</h3>
                 )
             }
         </div>
