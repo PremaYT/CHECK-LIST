@@ -1,6 +1,12 @@
 # USER CHECK LIST
 
+[link to checklist](https://checklist-premayt.netlify.app/ "link to checklist")
+
 A front-end app to manage daily tasks. 
+
+### Steps to run app
+1. npm install
+2. npm start
 
 ### Tech Stack - (MERN)
 
