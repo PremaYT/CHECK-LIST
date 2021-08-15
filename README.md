@@ -13,7 +13,7 @@ A front-end app to manage daily tasks.
 * JavaScript | ES6
 * ReactJS
 * Git | Markdown
-* bootstrap, react-bootstrap, react-icons, redux, react-redux,react-beautiful-dnd, localStorage
+* bootstrap, react-bootstrap, react-icons, redux, react-redux, react-beautiful-dnd, localStorage
 
 ### DEMO
 
