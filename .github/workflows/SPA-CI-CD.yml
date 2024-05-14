@@ -25,7 +25,7 @@ jobs:
           path: |
             **/node_modules
             **/build
-          keys: ${{ runner.os }}-build-${{ env.cache-name }}-${{ hashFiles('**/package-lock.json') }}
+          key: ${{ runner.os }}-build-${{ env.cache-name }}-${{ hashFiles('**/package-lock.json') }}
           restore-keys: |
             ${{ runner.os }}-build-${{ env.cache-name }}-
             ${{ runner.os }}-build-
@@ -46,3 +46,6 @@ jobs:
       #       node-version: "16.x"
 
       - run: npm run build
+        env:
+          REACT_APP_USERS_API_ENDPOINT: ${{ secrets.REACT_APP_USERS_API_ENDPOINT }}
+          REACT_APP_FETCH_METHOD: ${{ vars.REACT_APP_FETCH_METHOD }}
